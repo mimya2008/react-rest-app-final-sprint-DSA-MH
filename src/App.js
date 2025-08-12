@@ -106,7 +106,7 @@ export default class App extends Component {
             onClick={this.buildTree}
             disabled={!inputCanon || isDuplicate}
           >
-            Build Tree
+            Submit
           </button>
           <button className="btn btn-outline-secondary" onClick={this.loadPrevious}>
             Show Previous
